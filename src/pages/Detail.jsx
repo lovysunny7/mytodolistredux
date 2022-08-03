@@ -26,7 +26,7 @@ const Detail = () => {
             <StButton
               borderColor="#ddd"
               onClick={() => {
-                navigate("/");
+                navigate("/mytodolistredux");
               } }
             >
               이전으로

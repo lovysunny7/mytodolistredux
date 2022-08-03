@@ -24,7 +24,7 @@ const List = () => {
           if (!todo.isDone) {
             return (
               <div className="todo-container" key={todo.id}>
-                <Link to={`/${todo.id}`} >
+                <Link to={`/mytodolistredux/${todo.id}`} >
                 <div>상세보기</div>
               </Link>
               <div>
@@ -60,7 +60,7 @@ const List = () => {
           if (todo.isDone) {
             return (
               <div className="todo-container" key={todo.id}>
-                <Link to={`/${todo.id}`} >
+                <Link to={`/mytodolistredux/${todo.id}`} >
                   <div>상세보기</div>
                 </Link>
                 <div>
