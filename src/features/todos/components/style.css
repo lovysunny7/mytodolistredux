@@ -1,0 +1,131 @@
+.add-form {
+    background-color: #eee;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .form-label {
+    font-size: 16px;
+  font-weight: 700;
+  }
+  
+  .add-input{ 
+    height: 40px;
+    width: 240px;
+    border: none;
+    border-radius: 12px;
+    padding: 0 12px;
+  }
+  
+  /* 오리지널 */
+  /* .add-button {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color: teal;
+    width: 140px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'jua', cursive;
+  } */
+
+  /* .add-button {
+    display:block;
+    border-radius: 10px;
+    width:200px; 
+    height:40px; 
+    line-height:40px; 
+    border:none;
+    margin:15px auto; 
+    background-color: teal;  
+    text-align:center; 
+    cursor: pointer;  
+    color:#fff; 
+    transition:all 0.9s, color 0.3;  
+}
+.add-button:hover{color:#fff;  box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;} */
+
+.add-button {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color: pink;
+    width: 140px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'jua', cursive;
+    box-shadow: 0 0 40px 40px teal inset, 0 0 0 0 teal;
+    transition: all 150ms ease-in-out;
+    
+  }
+  .add-button:hover {
+    color: black;
+    box-shadow: 0 0 10px 0 teal inset, 0 0 10px 4px teal;
+  }
+
+  .list-container { 
+    padding: 0 24px;
+  }
+  
+  .list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .todo-container {
+    width: 270px;
+    /* height: 150px; */
+    border: 4px solid teal;
+    border-radius: 12px;
+    padding: 12px 24px 24px 24px;
+  }
+  
+  .button-set{
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+    
+  }
+  
+  .button{
+    border:none;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family:'jua', cursive;
+  }
+  
+  .todo-delete-button {
+    border: 2px solid red;
+    background-color: #fff;
+  }
+
+  .todo-delete-button:hover {
+    border: 2px solidr red;
+    background-color: red;
+  }
+  
+  
+  .todo-complete-button {
+    border: 2px solid green;
+    background-color: #fff;
+  }
+
+  .todo-complete-button:hover {
+    border: 2px solid green;
+    background-color: green;
+    color: #fff;
+  }
